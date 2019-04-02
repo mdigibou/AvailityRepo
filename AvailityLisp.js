@@ -7,17 +7,17 @@ var newThing = function(x)
 	for(var q = 0; q< stringArray.length; q++)
 	{
 		if(stringArray[q] == '(')
-        {			
+        	{			
 			openCounter++;			
-        }
+        	}
 		else if (stringArray[q] == ')')
-        {			
+        	{			
 			if(openCounter <= 0)
 				return false;
 			else
 				openCounter--;
-        }			
-    }
+       	 	}			
+    	}
 	if(openCounter == 0)
 		return true;
 	else
