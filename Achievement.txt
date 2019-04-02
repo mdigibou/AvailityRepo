@@ -1,0 +1,10 @@
+My most proud personal achievement was last year, and it started with a bet. 
+I am a member of a local tuner cars group and naturally people think of new and interesting ways to make their cars stand out or be unique. 
+One common way they do this is by installing cheap LEDs or lights to the bottom of their car known as Underglow kits. 
+The most popular kit with decent functionality retails for around $500 and their phone app is buggy, as well as the kits being known to not be particularly reliable. 
+I bet a friend of mine I could come up with a better kit from scratch for less than $80. 
+I purchased an ESP32 (think like an Arduino or RasPi but smaller, and with WiFi and BLE built in) along with the RGB Chroma LED strips and other associated hardware from Amazon. 
+I assembled all the hardware from scratch (soldering the board, wires, leds, logic level shifters, resistors, and power blocks for safety)
+Then I wrote the firmware on the ESP32 in C to take advantage of the multi-threaded onboard processor which would control the lighting signals and read BLE signal from my phone
+Then I wrote the phone app using Thunkable (or MIT interface) so I could prototype quickly.
+The best part of the whole project is that I built it with modularity as part of the design. I now use this same firmware and phone app to control a number of different products I sell from my personal brand of "Wearable Tech". 

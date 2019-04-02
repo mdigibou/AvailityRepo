@@ -1,0 +1,12 @@
+While I don't consider this article to necessarily make a value judgement one way or the other, it does a good job of hightlighting what I call my 3 tenants of good development practice. 
+"I created the exact same app in React and Vue and here are the differences"
+https://medium.com/javascript-in-plain-english/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd
+
+The short version is that perfomance-wise, the two were identical. The difference being that the Vue application required less of the developers, for the same result. Additionally, the React app requires a lot more set up work and typically at a "real project" scale will also require package management and plugins. Vue for any size project will leave a nearly minimal footprint of simply including the vue file on the page, and choosing whether or not to instantiate specific elements with a vue virtual dom. There are caveats to both but speaking very broadly.
+
+Circling back to my point about the 3 tenants of good development, I believe that all development should try to accomplish these in order:
+1.) It should work. If the product doesn't work, then you don't have a product.
+2.) It should be easy to use. If the client doesn't like using it, the product is worth less.
+3.) It should be easy to work on. If you're buried in tech debt, or it takes 2 hours to make a change that impacts less than one line due to spaghetti code or other organization-based issues then you've likely gone awry somewhere. There are a lot of development shops that may fall in to this pitfall for one reason or another, but its extremely costly over time. Both because resources (developers) will becomes more expensive as better technologies take the fore, and also because it takes the same developers longer to find the head of the problem. It takes even longer to re-organize and actually solve the tech-debt. 
+
+This isn't a condemnation of react whole-sale, but its definitely worth taking a look at and comparing the pros and cons very closely of competing products to see if one would be a good fit for future projects
